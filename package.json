@@ -1,0 +1,27 @@
+{
+  "name": "repotest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonangellopez/repotest.git"
+  },
+  "author": "Wilson Angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilsonangellopez/repotest/issues"
+  },
+  "homepage": "https://github.com/wilsonangellopez/repotest#readme",
+  "description": "",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.15.0",
+    "@wdio/cucumber-framework": "^9.15.0",
+    "@wdio/local-runner": "^9.15.0",
+    "@wdio/spec-reporter": "^9.15.0",
+    "wdio-wait-for": "^3.1.0"
+  }
+}
