@@ -17,7 +17,9 @@ class LoginPage extends Page {
     }
 
     public get btnSubmit () {
+        //a new comment
         return $('button[type="submit"]');
+
     }
 
     /**
